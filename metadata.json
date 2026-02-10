@@ -1,0 +1,7 @@
+{
+  "name": "Serwis Beretta Elbląg - HYDROMONT",
+  "description": "Profesjonalny serwis kotłów Beretta w Elblągu. Naprawa, montaż i konserwacja systemów grzewczych. Wykorzystuje AI do wizualizacji serwisu.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesjonalny Serwis Beretta Elbląg – HYDROMONT Krzysztof Szutkowski</title>
+    <meta name="description" content="Serwis Beretta Elbląg - Naprawa, montaż i serwis kotłów gazowych. Szybkie terminy, pełen profesjonalizm. Zadzwon: +48 663 838 116.">
+    
+    <!-- Preconnect to improve LCP/Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              beretta: '#e30613',
+              charcoal: '#2d2d2d',
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Serwis Beretta Elbląg HYDROMONT Krzysztof Szutkowski",
+      "image": "https://picsum.photos/800/600",
+      "@id": "",
+      "url": "https://hydromont-elblag.pl",
+      "telephone": "+48 663 838 116",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Browarna 27",
+        "addressLocality": "Elbląg",
+        "postalCode": "82-300",
+        "addressCountry": "PL"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 54.1752,
+        "longitude": 19.3908
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "14:00"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+      /* Critical CSS for layout stability */
+      body { margin: 0; padding: 0; min-height: 100vh; overflow-x: hidden; }
+      .hero-gradient { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)); }
+      #root { display: flex; flex-direction: column; min-height: 100vh; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-50 text-charcoal">
+    <div id="root"></div>
+</body>
+</html>
